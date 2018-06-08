@@ -1,6 +1,5 @@
-# Project Title
-
-Amanda's React Boilerplate (my favorite setup)
+# Amanda's React Boilerplate
+Created a simple template for getting React projects using Babel, Webpack, and Airbnb Style Guide. This way, I don't need to rewrite the exact same config files everytime I want to build a new React project. 
 
 ## Getting Started
 
@@ -8,8 +7,8 @@ run npm install
 
 ## Versioning
 
-"react": "^16.4.0",
-"react-dom": "^16.4.0"
+* "react": "^16.4.0",
+* "react-dom": "^16.4.0"
 
 ## Authors
 
