@@ -4,7 +4,7 @@
   "description": "Template for React, Webpack and Airbnb Linter",
   "main": "server/server.js",
   "scripts": {
-    "run": "nodemon server/server.js",
+    "start": "nodemon server/server.js",
     "compile": "webpack --watch"
   },
   "author": "Amanda Bullington",
@@ -18,6 +18,8 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "nodemon": "^1.17.5",
     "webpack": "^4.11.1",
     "webpack-cli": "^3.0.3"
