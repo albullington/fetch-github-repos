@@ -3,9 +3,9 @@ Created a simple template for getting React projects using Babel, Webpack, and A
 
 ## Getting Started
 
-*npm install
-*npm run compile
-*npm start
+* npm install
+* npm run compile
+* npm start
 
 ## Authors
 
