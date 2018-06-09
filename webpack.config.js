@@ -9,16 +9,19 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['react', 'es2015']
-          }
-        }
-      }
-    ]
+            presets: ['react', 'es2015'],
+          },
+        },
+      },
+    ],
   },
-  entry: './src/index.js',
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
+  entry: './client/index.js',
   output: {
-    path: path.join(__dirname + '/dist'),
-    filename: 'bundle.js'
-  }, 
-  mode: 'development'
-}
+    path: path.join(__dirname, '/public/dist'),
+    filename: 'bundle.js',
+  },
+  mode: 'development',
+};

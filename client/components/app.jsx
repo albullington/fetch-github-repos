@@ -1,7 +1,9 @@
 import React from 'react';
 
 const App = () => (
-  <div>React is compiling correctly</div>
+  <div>
+    <p>React is compiling correctly</p>
+  </div>
 );
 
 export default App;
