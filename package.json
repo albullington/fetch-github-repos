@@ -1,7 +1,7 @@
 {
-  "name": "amanda-react-boilerplate",
+  "name": "fetch-github-repos",
   "version": "1.0.0",
-  "description": "Template for React, Webpack and Airbnb Linter",
+  "description": "Front end service to fetch GitHub repos",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
