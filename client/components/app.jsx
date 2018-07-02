@@ -43,7 +43,6 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <p>React rendering</p>
         <Form
           handleSubmit={this.handleSubmit}
           handleChange={this.handleChange}
