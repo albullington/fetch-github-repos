@@ -1,13 +1,15 @@
+import React from 'react';
+
 const List = ({ data }) => {
   const dataMap = data.map((repo) => {
-    return <li>repo.name</li>;
+    return <ul>{repo.name}</ul>;
   });
-  
-  render() {
-    return (
+
+  return (
     <div>
-      <p>{dataMap}</p>
+      <li>{dataMap}</li>
     </div>
-    );
-  }
+  );
 }
+
+export default List;
