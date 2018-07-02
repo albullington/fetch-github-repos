@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 
 import List from './list';
 import Form from './form';
 
-class App extends React.Component {
+class App extends Component {
   constructor() {
     super();
 
@@ -20,7 +20,6 @@ class App extends React.Component {
   getGitHubRepo(username) {
     axios.get(`https://api.github.com/users/${username}/repos`)
       .then((response) => {
-        console.log(response);
         this.setState({
           data: response.data,
         });

@@ -1,5 +1,5 @@
-# Amanda's React Boilerplate
-Created a simple template for getting React projects using Babel, Webpack, and Airbnb Style Guide. This way, I don't need to rewrite the exact same config files everytime I want to build a new React project. 
+# Fetch GitHub Repos
+Submit a username to retrieve a full list of that person's GitHub repos, along with a description of their repos. 
 
 ## Getting Started
 
